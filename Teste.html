@@ -1,0 +1,89 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<style>
+
+	h1{
+		margin-bottom: 5px;
+	}
+
+	body{
+		background-color: yellow;
+	}
+
+	.container-card{
+		margin:0px auto;
+		display: flex;
+		flex-direction: column;
+		border: 1px solid black;
+		border-radius: 16px;
+		width:50%;
+		background-color: #00ffff;
+		padding: 15px;
+	}
+
+	.my-btn{
+		align-self: center;
+	} 
+
+	.field-container{
+		display: ruby;
+	}
+
+	.line{
+		color:red;
+	}
+
+</style>
+
+<div class="container-card">
+<h1>TESTE CORONA VIRUS 2.0</h1>
+<h3>Descubra agora se você tem corona vírus</h3>
+<hr class="line"/>
+<div class="field-container">
+	<p>Nome Completo:</p>
+	<input type="text" placeholder="Digite aqui"></input>
+</div>
+
+<div class="field-container">
+	<p>Nome Completo:</p>
+	<input type="text" placeholder="Digite aqui"></input>
+</div>
+
+<div class="field-container">
+	<p>Número do cartão:</p>
+	<input type="text" placeholder="Digite aqui"></input>
+</div>
+
+<div class="field-container">
+	<p>Data de Validade:</p>
+	<input type="text" placeholder="Digite aqui"></input>
+</div>
+
+<div class="field-container">
+	<p>CVV:</p>
+	<input type="text" placeholder="Digite aqui"></input>
+</div>
+
+<div class="field-container">
+	<p>CPF:</p>
+	<input type="text" placeholder="Digite aqui"></input>
+</div>
+	
+<button class="my-btn" onclick="Enviar()">Enviar</button>
+</div>
+
+<script>
+
+	function Enviar(){
+		alert("Você não tem Corona vírus\nMas tem cornão vírus");
+	}
+
+</script>
+
+</body>
+</html> 
